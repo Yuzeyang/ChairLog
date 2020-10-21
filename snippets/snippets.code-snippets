@@ -1,0 +1,45 @@
+{
+  "Warn logger": {
+    "prefix": "clw",
+    "body": [
+      "this.ctx.logger.warn('[warn][${1:function}][${2:info}]');",
+      "$0"
+    ],
+    "description": "log egg warn message"
+  },
+  "Warn logger with args": {
+    "prefix": "clwa",
+    "body": [
+      "this.ctx.logger.warn('[warn][${TM_FILEPATH/(.*\\/app\\/|.ts|.js)//g}/${1:functionName}][${2:scene}] (${3:var})(%j)$4', ${5:value}$6);"
+    ],
+    "description": "log egg warn message with arguments"
+  },
+  "Info logger": {
+    "prefix": "cli",
+    "body": [
+      "this.ctx.logger.info('[info][${1:function}][${2:info}]');"
+    ],
+    "description": "log egg info message"
+  },
+  "Info logger with args": {
+    "prefix": "clia",
+    "body": [
+      "this.ctx.logger.info('[info][${TM_FILEPATH/(.*\\/app\\/|.ts|.js)//g}/${1:functionName}][${2:scene}] (${3:var})(%j)$4', ${5:value}$6);"
+    ],
+    "description": "log egg info message with arguments"
+  },
+  "Error logger": {
+    "prefix": "cle",
+    "body": [
+      "this.ctx.logger.error('[error][${1:function}][${2:info}]');"
+    ],
+    "description": "log egg error message"
+  },
+  "Error logger with args": {
+    "prefix": "clea",
+    "body": [
+      "this.ctx.logger.error('[error][${TM_FILEPATH/(.*\\/app\\/|.ts|.js)//g}/${1:functionName}][${2:scene}] (${3:var})(%j)$4', ${5:value}$6);"
+    ],
+    "description": "log egg error message with arguments"
+  },
+}

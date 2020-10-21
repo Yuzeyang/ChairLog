@@ -1,0 +1,24 @@
+{
+    "name": "egg-logger-snippets",
+    "displayName": "egg-logger-snippets",
+    "description": "Egg logger snippets.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

@@ -4,6 +4,10 @@
     "description": "Egg logger snippets.",
     "publisher": "zeeyang",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Yuzeyang/vscode-extension-egg-log"
+    },
     "engines": {
         "vscode": "^1.50.0"
     },

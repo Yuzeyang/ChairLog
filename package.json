@@ -2,6 +2,7 @@
     "name": "egg-logger-snippets",
     "displayName": "egg-logger-snippets",
     "description": "Egg logger snippets.",
+    "publisher": "zeeyang",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.50.0"

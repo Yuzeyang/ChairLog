@@ -13,27 +13,40 @@ egg日志vscode插件，方便懒人添加日志，规范团队日志
 ## Snippets
 
 `cli`: 快捷创建无参数info类型日志。
-![](./screenshots/cli.png)
+
+```typescript
+this.ctx.logger.info('[info][function][info]');
+```
 
 `clia`: 快捷创建多参数info类型日志.
 
-![](./screenshots/clia.png)
+```typescript
+this.ctx.logger.info('[info][rpc/test/functionName][scene] (var)(%j)', value);
+```
 
 `clw`: 快捷创建无参数warn类型日志。
 
-![](./screenshots/clw.png)
+```typescript
+this.ctx.logger.warn('[warn][function][info]');
+```
 
 `clwa`: 快捷创建多参数warn类型日志。
 
-![](./screenshots/clwa.png)
+```typescript
+this.ctx.logger.warn('[warn][rpc/test/functionName][scene] (var)(%j)', value);
+```
 
 `cle`: 快捷创建无参数error类型日志。
 
-![](./screenshots/cle.png)
+```typescript
+this.ctx.logger.error('[error][function][info]');
+```
 
 `clea`: 快捷创建多参数error类型日志。
 
-![](./screenshots/clea.png)
+```typescript
+this.ctx.logger.error('[error][rpc/test/functionName][scene] (var)(%j)', value);
+```
 
 ## Release Notes
 

@@ -17,23 +17,23 @@ egg日志vscode插件，方便懒人添加日志，规范团队日志
 
 `clia`: 快捷创建多参数info类型日志.
 
-![](/Users/zeeyang/Documents/GitHub/vscode-extension-egg-log/screenshots/clia.png)
+![](./screenshots/clia.png)
 
 `clw`: 快捷创建无参数warn类型日志。
 
-![](/Users/zeeyang/Documents/GitHub/vscode-extension-egg-log/screenshots/clw.png)
+![](./screenshots/clw.png)
 
 `clwa`: 快捷创建多参数warn类型日志。
 
-![](/Users/zeeyang/Documents/GitHub/vscode-extension-egg-log/screenshots/clwa.png)
+![](./screenshots/clwa.png)
 
 `cle`: 快捷创建无参数error类型日志。
 
-![](/Users/zeeyang/Documents/GitHub/vscode-extension-egg-log/screenshots/cle.png)
+![](./screenshots/cle.png)
 
 `clea`: 快捷创建多参数error类型日志。
 
-![](/Users/zeeyang/Documents/GitHub/vscode-extension-egg-log/screenshots/clea.png)
+![](./screenshots/clea.png)
 
 ## Release Notes
 
